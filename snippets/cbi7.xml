@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="i7d"
+	   fetch="https://github.com/nibelungo66" />
+
+  <remote  name="i7k"
+	   fetch="https://github.com/huadream" />
+	   
+  <project path="device/cube/i7" name="device_cube_i7" remote="i7d"/>
+  
+  <project path="kernel/cube/i7" name="android_kernel_cube_i7" remote="i7k"/>
+   
+</manifest>
