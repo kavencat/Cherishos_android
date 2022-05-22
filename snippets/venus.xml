@@ -1,1 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
 
+  <remote  name="cven"
+	   revision="twelve"
+	   fetch="https://github.com/jjpprrrr" />
+
+  <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="cven"/>
+  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="cven"/>
+  <project path="vendor/xiaomi/venus" name="vendor_xiaomi_venus" remote="cven"/>
+  <project path="device/xiaomi/venus" name="device_xiaomi_venus" revision="twelve-plus" remote="cven"/>
+  
+  <project path="kernel/xiaomi/venus" name="kernel_xiaomi_venus" remote="cven"/>
+
+</manifest>
