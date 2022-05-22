@@ -1113,6 +1113,5 @@
   <include name="snippets/cherish.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/wayne.xml" />
-  <include name="snippets/venus.xml" />
 
 </manifest>
