@@ -24,6 +24,10 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.1" />
 
+  <remote name="cat"
+          fetch="https://github.com/kavencat"
+          revision="twelve-one" />
+
   <!-- Rootdir -->
   <project path="art" name="android_art" remote="cherish" />
   <project path="bionic" name="android_bionic" remote="cherish" />
@@ -97,7 +101,7 @@
   <project name="android_packages_apps_SimpleDeviceConfig" path="packages/apps/SimpleDeviceConfig" remote="cherish" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="cherish" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cherish" />
-  <project path="packages/apps/Updates" name="android_packages_apps_Updates" remote="cherish" />
+  <project path="packages/apps/Updates" name="android_packages_apps_Updates2" remote="cat" />
   <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="cherish" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="cherish" />
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="cherish" />
