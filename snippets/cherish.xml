@@ -18,6 +18,10 @@
    <remote name="hungphan2001-gitlab"
           fetch="https://gitlab.com/hungphan2001"
           revision="twelve-one" />
+	
+  <remote name="spos"
+          fetch="https://github.com/SpiceOS-Beta"
+          revision="12.1" />
 		   
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
@@ -135,10 +139,10 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="pixel" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" revision="twelve" remote="cherish" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" revision="twelve" remote="cherish" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_commonsys-intf_bluetooth" revision="twelve" remote="cherish" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="cherish" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="cherish" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="cherish" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_commonsys-intf_bluetooth" remote="spos" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="spos" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="spos" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="spos" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" revision="twelve" remote="cherish" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" revision="twelve" remote="cherish" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="arrow" />
