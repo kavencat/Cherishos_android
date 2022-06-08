@@ -4,12 +4,8 @@
   <remote  name="miku"
 	   revision="twelve"
 	   fetch="https://github.com/clarencelol" />
-
-  <remote  name="miku2"
-	   revision="lineage-19.1"
-	   fetch="https://github.com/xiaoleGun" />
 	
-  <remote  name="miku3"
+  <remote  name="miku2"
 	   revision="4.19"
 	   fetch="https://github.com/v4lkyr" />
 	
@@ -22,22 +18,12 @@
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="miku"/>
   <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="miku"/>
   <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="miku"/>
-  <!--<project path="device/xiaomi/wayne" name="android_device_xiaomi_wayne-4.19" remote="miku2"/>
-  <project path="vendor/xiaomi/wayne" name="android_vendor_xiaomi_wayne-4.19" remote="miku2"/>-->
   
   -<project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" remote="kaven"/>
 
-  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku3"/>
-  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" remote="miku3"/>
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku2"/>
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" remote="miku2"/>
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" remote="miku2"/>
 
   
-<!--
-  <project path="hardware/qcom-caf/sdm660/camera" name="android_hardware_qcom-caf_sdm660_camera" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
-  <project path="hardware/qcom-caf/sdm660/gps" name="android_hardware_qcom-caf_sdm660_gps" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
-  <project path="hardware/qcom-caf/sdm660/thermal" name="android_hardware_qcom-caf_sdm660_thermal" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
-  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" revision="sdm660-4.19-12" remote="miku2"/>
-  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" revision="sdm660-4.19-12" remote="miku2"/>
-  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" revision="sdm660-4.19-12" remote="miku2"/>
-  -->
 </manifest>
