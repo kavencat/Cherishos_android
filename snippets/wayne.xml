@@ -30,7 +30,7 @@
   <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
   <project path="hardware/qcom-caf/sdm660/camera" name="android_hardware_qcom-caf_sdm660_camera" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
   <project path="hardware/qcom-caf/sdm660/gps" name="android_hardware_qcom-caf_sdm660_gps" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
-  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_sdm660_thermal" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
+  <project path="hardware/qcom-caf/sdm660/thermal" name="android_hardware_qcom-caf_sdm660_thermal" groups="qcom,qcom_display,pdk-qcom" remote="miku3"/>
   
 <!--
 
