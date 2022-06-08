@@ -24,10 +24,6 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.1" />
 
-  <remote name="cat"
-          fetch="https://github.com/kavencat"
-          revision="twelve-one" />
-
   <!-- Rootdir -->
   <project path="art" name="android_art" remote="cherish" />
   <project path="bionic" name="android_bionic" remote="cherish" />
