@@ -17,15 +17,15 @@
 	   revision="melon"
 	   fetch="https://github.com/kavencat" />
 	   
-  <!--<project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="miku"/>
+  <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="miku"/>
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="miku"/>
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="miku"/>
   <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="miku"/>
-  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="miku"/>-->
-  <project path="device/xiaomi/wayne" name="android_device_xiaomi_wayne-4.19" remote="miku2"/>
-  <project path="vendor/xiaomi/wayne" name="android_vendor_xiaomi_wayne-4.19" remote="miku2"/>
+  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="miku"/>
+  <!--<project path="device/xiaomi/wayne" name="android_device_xiaomi_wayne-4.19" remote="miku2"/>
+  <project path="vendor/xiaomi/wayne" name="android_vendor_xiaomi_wayne-4.19" remote="miku2"/>-->
   
-  <!--<project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" remote="kaven"/>-->
+  -<project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" remote="kaven"/>
 
   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku3"/>
   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" remote="miku3"/>
