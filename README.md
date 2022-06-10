@@ -1,6 +1,3 @@
-![Cherish](assets/cherish.png)
-# <b> <i> CherishOS | Built with </i>💖
-
 Getting Started:
 ==============
 
@@ -75,12 +72,3 @@ From root directory of Project, perform following commands in terminal
  brunch device-codename
 ```
 -----------------------------------------------------------------------------
-
-Apply for Official Maintainership
-====================
-You can apply for officialy maintaining the ROM for your device.
-
-https://forms.gle/BWg1mPxHNv2W8eK79
-
-### <b> <i> XDA Template </i> ###
-[Template](assets/xda.md)
