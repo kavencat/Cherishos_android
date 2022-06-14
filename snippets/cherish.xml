@@ -37,7 +37,7 @@
   <project path="art" name="android_art" remote="cherish" />
   <project path="bionic" name="android_bionic" remote="cherish" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="cherish" />
-  <project path="manifest" name="android_manifest" remote="kavencat" />
+  <project path="manifest" name="Cherishos_android" remote="kavencat" />
 
   <!-- Bootable -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cherish" />
