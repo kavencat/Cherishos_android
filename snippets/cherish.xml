@@ -28,10 +28,6 @@
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-12.1" />
-	
-  <remote name="aosp-12.1"
-          fetch="https://github.com/PixelPlusUI-SnowCone"
-          revision="snowcone-12.1" />
 
   <!-- Rootdir -->
   <project path="art" name="android_art" remote="cherish" />
