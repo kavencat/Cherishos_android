@@ -5,26 +5,31 @@
 	   revision="twelve"
 	   fetch="https://github.com/clarencelol" />
 	
-  <remote  name="miku2"
-	   revision="sdm660-4.19-12"
-	   fetch="https://github.com/clarencelol" />
+  <remote  name="ad"
+	   revision="arrow-12.0"
+	   fetch="https://github.com/ArrowOS-Devices" />
 	
   <remote  name="kaven"
 	   revision="melon"
 	   fetch="https://github.com/kavencat" />
 	
+  <project path="device/xiaomi/wayne-common" name="android_device_xiaomi_wayne-common" remote="ad"/>
+  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660-common" remote="ad"/>
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="ad"/>
+  <project path="vendor/xiaomi/wayne-common" name="android_vendor_xiaomi_wayne-common" remote="ad"/>
+  <project path="device/xiaomi/wayne" name="android_device_xiaomi_wayne" remote="ad"/>	
 	
-  <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="miku"/>
-  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" revision="ssos-4.19" remote="miku"/>
+  <!--<project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="miku"/>
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="miku"/>
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="miku"/>
   <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="miku"/>
-  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" revision="ssos-4.19" remote="miku"/>
+  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="miku"/>-->
   
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" remote="kaven"/>
 	
-  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku2"/>
-  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" remote="miku2"/>
-  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" remote="miku2"/>
+  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
+  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
+  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
 
   
 </manifest>
