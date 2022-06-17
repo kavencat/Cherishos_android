@@ -9,15 +9,25 @@
 	   revision="sdm660-4.19-12"
 	   fetch="https://github.com/clarencelol" />
 	
+  <remote  name="m"
+	   revision="12"
+	   fetch="https://github.com/Jasmine-Wayne-4-19" />
+	
   <remote  name="kaven"
 	   revision="melon"
 	   fetch="https://github.com/kavencat" />
-	   
-  <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="miku"/>
+	
+  <project path="device/xiaomi/wayne-common" name="android_device_xiaomi_wayne_common_4.19" remote="m"/>
+  <project path="vendor/xiaomi/sdm660-common" name="android_vendor_xiaomi_sdm660_common_4.19" remote="m"/>
+  <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660_common_4.19" remote="m"/>
+  <project path="vendor/xiaomi/wayne-common" name="android_vendor_xiaomi_wayne_common_4.19" remote="m"/>
+  <project path="device/xiaomi/wayne" name="android_device_xiaomi_wayne_4.19" revision="11" remote="m"/>
+	
+  <!--<project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="miku"/>
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" revision="ssos-4.19" remote="miku"/>
   <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="miku"/>
   <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="miku"/>
-  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" revision="ssos-4.19" remote="miku"/>
+  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" revision="ssos-4.19" remote="miku"/>-->
   
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" remote="kaven"/>
 	
