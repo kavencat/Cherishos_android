@@ -19,9 +19,9 @@
   <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="miku"/>
   <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="miku"/>
 	
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" remote="kaven"/>
+  <!--<project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" remote="kaven"/>-->
   
-  <!--<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_wayne-4.19" remote="xl"/>-->
+  <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_wayne-4.19" remote="xl"/>
   <!--<project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" revision="test" remote="kaven"/>-->
 	
   <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
