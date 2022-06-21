@@ -6,7 +6,7 @@
 	   fetch="https://github.com/clarencelol" />
 	
   <remote  name="kaven"
-	   revision="Nyx"
+	   revision="nyx"
 	   fetch="https://github.com/kavencat" />
 	
   <remote  name="ven"
