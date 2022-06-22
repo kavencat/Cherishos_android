@@ -21,9 +21,9 @@
 	
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" revision="Aeon-WALT" remote="kaven"/>
   	
-  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
-  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
-  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
+  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku"/>
+  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom"  remote="miku"/>
+  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" remote="miku"/>
 
   
 </manifest>
