@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="miku"
-	   revision="twevlve"
+	   revision="twelve"
 	   fetch="https://github.com/clarencelol" />
 	
   <remote  name="kaven"
