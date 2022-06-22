@@ -2,8 +2,8 @@
 <manifest>
 
   <remote  name="miku"
-	   revision="lineage-19.1"
-	   fetch="https://github.com/xiaoleGun" />
+	   revision="twevlve"
+	   fetch="https://github.com/clarencelol" />
 	
   <remote  name="kaven"
 	   revision="melon"
@@ -19,11 +19,11 @@
   <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="miku"/>
   <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="miku"/>
 	
-  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" revision="Aeon-WALT" remote="kaven"/>
+  <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" remote="kaven"/>
   	
-  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" remote="miku"/>
-  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" remote="miku"/>
-  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" remote="miku"/>
+  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom-caf_sdm660_audio" groups="qcom,qcom_audio,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
+  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom-caf_sdm660_media" groups="qcom,qcom_media,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
+  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom-caf_sdm660_display" groups="qcom,qcom_display,pdk-qcom" revision="sdm660-4.19-12" remote="miku"/>
 
   
 </manifest>
