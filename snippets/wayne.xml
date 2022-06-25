@@ -10,8 +10,10 @@
 	   fetch="https://github.com/kavencat" />
 	
   <remote  name="ven"
-	   revision="sapphire"
-	   fetch="https://github.com/Ratoriku" />
+	   revision="twelve"
+	   fetch="https://github.com/MI-A2-Developer" />
+	
+	
 	
   <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="miku"/>
   <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="miku"/>
