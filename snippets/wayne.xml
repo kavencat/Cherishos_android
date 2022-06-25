@@ -15,11 +15,11 @@
 	
 	
 	
-  <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="miku"/>
-  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="miku"/>
-  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="miku"/>
-  <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="miku"/>
-  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="miku"/>
+  <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="ven"/>
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="ven"/>
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="ven"/>
+  <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="ven"/>
+  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="ven"/>
 	
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" revision="test" remote="kaven"/>
   	
