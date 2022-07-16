@@ -6,20 +6,14 @@
 	   fetch="https://github.com/clarencelol" />
 	
   <remote  name="kaven"
-	   revision="melon"
+	   revision="twelve-one"
 	   fetch="https://github.com/kavencat" />
 	
-  <remote  name="ven"
-	   revision="twelve"
-	   fetch="https://github.com/MI-A2-Developer" />
-	
-	
-	
-  <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="ven"/>
-  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="ven"/>
-  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="ven"/>
-  <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="ven"/>
-  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="ven"/>
+  <project path="device/xiaomi/wayne-common" name="device_xiaomi_wayne-common" remote="kaven"/>
+  <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="kaven"/>
+  <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="kaven"/>
+  <project path="vendor/xiaomi/wayne-common" name="vendor_xiaomi_wayne-common" remote="kaven"/>
+  <project path="device/xiaomi/wayne" name="device_xiaomi_wayne" remote="kaven"/>
 	
   <project path="kernel/xiaomi/sdm660" name="kernel_xiaomi_sdm660-4.19" revision="test" remote="kaven"/>
   	
